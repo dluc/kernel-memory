@@ -36,8 +36,6 @@
         <!-- Include the XML documentation file in the NuGet package. -->
         <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
 
-        <!-- Embed C# sources in PDB -->
-        <EmbedAllSources>true</EmbedAllSources>
     </PropertyGroup>
 
     <ItemGroup>
