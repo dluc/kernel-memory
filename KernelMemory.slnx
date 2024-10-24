@@ -1,0 +1,335 @@
+﻿<Solution>
+  <Folder Name="/applications/">
+    <Project Path="applications\evaluation\Evaluation.csproj" Type="Classic C#">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="applications\tests\Evaluation.Tests\Evaluation.FunctionalTests.csproj" Type="Classic C#">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+  </Folder>
+  <Folder Name="/clients/">
+    <Project Path="clients\dotnet\SemanticKernelPlugin\SemanticKernelPlugin.csproj" />
+    <Project Path="clients\dotnet\WebClient\WebClient.csproj" />
+  </Folder>
+  <Folder Name="/docs/">
+    <File Path="docs\404.html" />
+    <File Path="docs\azure.md" />
+    <File Path="docs\concepts.md" />
+    <File Path="docs\csharp.png" />
+    <File Path="docs\extensions.md" />
+    <File Path="docs\FAQ.md" />
+    <File Path="docs\favicon.png" />
+    <File Path="docs\features.md" />
+    <File Path="docs\Gemfile" />
+    <File Path="docs\Gemfile.lock" />
+    <File Path="docs\how-tos.md" />
+    <File Path="docs\index.md" />
+    <File Path="docs\java.png" />
+    <File Path="docs\logo.png" />
+    <File Path="docs\network.png" />
+    <File Path="docs\packages.md" />
+    <File Path="docs\python.png" />
+    <File Path="docs\quickstart-dotnet-run.png" />
+    <File Path="docs\quickstart-swagger.png" />
+    <File Path="docs\quickstart.md" />
+    <File Path="docs\run.cmd" />
+    <File Path="docs\security.md" />
+    <File Path="docs\serverless.md" />
+    <File Path="docs\service.md" />
+    <File Path="docs\_config.local.yml" />
+    <File Path="docs\_config.yml" />
+  </Folder>
+  <Folder Name="/docs/azure/">
+    <File Path="docs\azure\architecture.md" />
+    <File Path="docs\azure\architecture.png" />
+    <File Path="docs\azure\async.png" />
+    <File Path="docs\azure\deployment.md" />
+    <File Path="docs\azure\diagram.png" />
+    <File Path="docs\azure\usage.md" />
+  </Folder>
+  <Folder Name="/docs/how-to/">
+    <File Path="docs\how-to\custom-partitioning.md" />
+    <File Path="docs\how-to\custom-pipelines.md" />
+    <File Path="docs\how-to\custom-prompts.md" />
+    <File Path="docs\how-to\hugging-face.md" />
+    <File Path="docs\how-to\intent-detection.md" />
+    <File Path="docs\how-to\multitenancy.md" />
+  </Folder>
+  <Folder Name="/examples/">
+    <Project Path="examples\001-dotnet-WebClient\001-dotnet-WebClient.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\002-dotnet-Serverless\002-dotnet-Serverless.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\003-dotnet-SemanticKernel-plugin\003-dotnet-SemanticKernel-plugin.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\004-dotnet-serverless-custom-pipeline\004-dotnet-serverless-custom-pipeline.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\005-dotnet-async-memory-custom-pipeline\005-dotnet-async-memory-custom-pipeline.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\101-dotnet-custom-Prompts\101-dotnet-custom-Prompts.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\102-dotnet-custom-partitioning-options\102-dotnet-custom-partitioning-options.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\103-dotnet-custom-EmbeddingGenerator\103-dotnet-custom-EmbeddingGenerator.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\104-dotnet-custom-LLM\104-dotnet-custom-LLM.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\105-dotnet-serverless-llamasharp\105-dotnet-serverless-llamasharp.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\106-dotnet-retrieve-synthetics\106-dotnet-retrieve-synthetics.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\107-dotnet-SemanticKernel-TextCompletion\107-dotnet-SemanticKernel-TextCompletion.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\108-dotnet-custom-content-decoders\108-dotnet-custom-content-decoders.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\109-dotnet-custom-webscraper\109-dotnet-custom-webscraper.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\110-dotnet-anthropic\110-dotnet-anthropic.csproj" Type="Classic C#">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\111-dotnet-azure-ai-hybrid-search\111-dotnet-azure-ai-hybrid-search.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\201-dotnet-serverless-custom-handler\201-dotnet-serverless-custom-handler.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\202-dotnet-custom-handler-as-a-service\202-dotnet-custom-handler-as-a-service.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\203-dotnet-using-KM-nuget\203-dotnet-using-KM-nuget.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\204-dotnet-ASP.NET-MVC-integration\204-dotnet-ASP.NET-MVC-integration.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\205-dotnet-extract-text-from-docs\205-dotnet-extract-text-from-docs.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\206-dotnet-configuration-and-logging\206-dotnet-configuration-and-logging.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\207-dotnet-expanding-chunks-on-retrieval\207-dotnet-expanding-chunks-on-retrieval.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\208-dotnet-lmstudio\208-dotnet-lmstudio.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\209-dotnet-using-context-overrides\209-dotnet-using-context-overrides.csproj" Type="Classic C#">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\210-KM-without-builder\210-KM-without-builder.csproj" Type="Classic C#">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\211-dotnet-WebClient-Intent-Detection\211-dotnet-WebClient-Intent-Detection.csproj" Type="Classic C#">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\212-dotnet-ollama\212-dotnet-ollama.csproj" Type="Classic C#">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\301-discord-test-application\301-discord-test-application.csproj" Type="Classic C#">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\302-dotnet-sk-km-chat\302-dotnet-sk-km-chat.csproj" Type="Classic C#">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="examples\401-evaluation\401-evaluation.csproj" Type="Classic C#">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <File Path="examples\README.md" />
+  </Folder>
+  <Folder Name="/examples/000-notebooks/">
+    <File Path="examples\000-notebooks\001-upload-and-ask.ipynb" />
+    <File Path="examples\000-notebooks\002-semantic-kernel-plugin.ipynb" />
+    <File Path="examples\000-notebooks\appsettings.json" />
+    <File Path="examples\000-notebooks\NASA-news.pdf" />
+    <File Path="examples\000-notebooks\sample-KM-Readme.pdf" />
+  </Folder>
+  <Folder Name="/examples/006-curl-calling-webservice/">
+    <File Path="examples\006-curl-calling-webservice\ask-example.sh" />
+    <File Path="examples\006-curl-calling-webservice\README.md" />
+    <File Path="examples\006-curl-calling-webservice\search-example.sh" />
+    <File Path="examples\006-curl-calling-webservice\test.pdf" />
+    <File Path="examples\006-curl-calling-webservice\upload-example.sh" />
+  </Folder>
+  <Folder Name="/examples/200-dotnet-nl2sql/">
+    <File Path="examples\200-dotnet-nl2sql\README.md" />
+  </Folder>
+  <Folder Name="/extensions/">
+    <Project Path="extensions\Anthropic\Anthropic.csproj" Type="Classic C#" />
+    <Project Path="extensions\AWS\S3\S3.csproj" Type="Classic C#" />
+    <Project Path="extensions\AzureAIContentSafety\AzureAIContentSafety\AzureAIContentSafety.csproj" Type="Classic C#" />
+    <Project Path="extensions\AzureAIDocIntel\AzureAIDocIntel.csproj" />
+    <Project Path="extensions\AzureAISearch\AzureAISearch\AzureAISearch.csproj" />
+    <Project Path="extensions\AzureBlobs\AzureBlobs.csproj" />
+    <Project Path="extensions\AzureOpenAI\AzureOpenAI.csproj" />
+    <Project Path="extensions\AzureQueues\AzureQueues.csproj" />
+    <Project Path="extensions\Discord\Discord\Discord.csproj" Type="Classic C#" />
+    <Project Path="extensions\Elasticsearch\Elasticsearch\Elasticsearch.csproj" />
+    <Project Path="extensions\KM\KernelMemory\KernelMemory.csproj" Type="Classic C#" />
+    <Project Path="extensions\LlamaSharp\LlamaSharp\LlamaSharp.csproj" />
+    <Project Path="extensions\MongoDbAtlas\MongoDbAtlas\MongoDbAtlas.csproj" />
+    <Project Path="extensions\Ollama\Ollama\Ollama.csproj" Type="Classic C#" />
+    <Project Path="extensions\ONNX\Onnx\Onnx.csproj" Type="Classic C#" />
+    <Project Path="extensions\OpenAI\OpenAI\OpenAI.csproj" />
+    <Project Path="extensions\Postgres\Postgres\Postgres.csproj" />
+    <Project Path="extensions\Qdrant\Qdrant\Qdrant.csproj" />
+    <Project Path="extensions\RabbitMQ\RabbitMQ\RabbitMQ.csproj" />
+    <Project Path="extensions\Redis\Redis\Redis.csproj" />
+    <Project Path="extensions\SQLServer\SQLServer\SQLServer.csproj" />
+  </Folder>
+  <Folder Name="/root/">
+    <File Path=".dockerignore" />
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="azure.yaml" />
+    <File Path="CODE_OF_CONDUCT.md" />
+    <File Path="COMMUNITY.md" />
+    <File Path="CONTRIBUTING.md" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="Dockerfile" />
+    <File Path="KernelMemory.sln.DotSettings" />
+    <File Path="LICENSE" />
+    <File Path="nuget.config" />
+    <File Path="README.md" />
+    <File Path="SECURITY.md" />
+  </Folder>
+  <Folder Name="/root/.github/">
+    <File Path=".github\dependabot.yml" />
+    <File Path=".github\pull_request_template.md" />
+    <File Path=".github\_typos.toml" />
+  </Folder>
+  <Folder Name="/root/.github/workflows/">
+    <File Path=".github\workflows\docker-build-push.yml" />
+    <File Path=".github\workflows\dotnet-build.yml" />
+    <File Path=".github\workflows\dotnet-unit-tests.yml" />
+    <File Path=".github\workflows\github-pages-jekyll.yml" />
+    <File Path=".github\workflows\spell-check-with-typos.yml" />
+  </Folder>
+  <Folder Name="/root/infra/">
+    <File Path="infra\AZD.md" />
+    <File Path="infra\build-main.json.sh" />
+    <File Path="infra\main.bicep" />
+    <File Path="infra\main.json" />
+    <File Path="infra\main.parameters.json" />
+    <File Path="infra\README.md" />
+  </Folder>
+  <Folder Name="/root/infra/modules/">
+    <File Path="infra\modules\ai-search.bicep" />
+    <File Path="infra\modules\cognitive-services.bicep" />
+    <File Path="infra\modules\container-app.bicep" />
+    <File Path="infra\modules\container-apps-environment.bicep" />
+    <File Path="infra\modules\managed-identity.bicep" />
+    <File Path="infra\modules\storage.bicep" />
+  </Folder>
+  <Folder Name="/service/">
+    <Project Path="service\Abstractions\Abstractions.csproj" />
+    <Project Path="service\Core\Core.csproj" />
+    <Project Path="service\Service.AspNetCore\Service.AspNetCore.csproj" />
+    <Project Path="service\Service\Service.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="service\tests\Abstractions.UnitTests\Abstractions.UnitTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="service\tests\Core.FunctionalTests\Core.FunctionalTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="service\tests\Core.UnitTests\Core.UnitTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="service\tests\Service.FunctionalTests\Service.FunctionalTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="service\tests\TestHelpers\TestHelpers.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+  </Folder>
+  <Folder Name="/tests/extensions/">
+    <Project Path="extensions\AzureAISearch\AzureAISearch.FunctionalTests\AzureAISearch.FunctionalTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\AzureAISearch\AzureAISearch.TestApplication\AzureAISearch.TestApplication.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\AzureAISearch\AzureAISearch.UnitTests\AzureAISearch.UnitTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\Elasticsearch\Elasticsearch.FunctionalTests\Elasticsearch.FunctionalTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\LlamaSharp\LlamaSharp.FunctionalTests\LlamaSharp.FunctionalTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\MongoDbAtlas\MongoDbAtlas.FunctionalTests\MongoDbAtlas.FunctionalTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\ONNX\Onnx.FunctionalTests\Onnx.FunctionalTests.csproj" Type="Classic C#">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\OpenAI\OpenAI.UnitTests\OpenAI.UnitTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\Postgres\Postgres.FunctionalTests\Postgres.FunctionalTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\Postgres\Postgres.TestApplication\Postgres.TestApplication.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\Postgres\Postgres.UnitTests\Postgres.UnitTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\Qdrant\Qdrant.FunctionalTests\Qdrant.FunctionalTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\Qdrant\Qdrant.TestApplication\Qdrant.TestApplication.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\Qdrant\Qdrant.UnitTests\Qdrant.UnitTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\RabbitMQ\RabbitMQ.TestApplication\RabbitMQ.TestApplication.csproj" Type="Classic C#">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\Redis\Redis.FunctionalTests\Redis.FunctionalTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\Redis\Redis.TestApplication\Redis.TestApplication.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+    <Project Path="extensions\SQLServer\SQLServer.FunctionalTests\SQLServer.FunctionalTests.csproj">
+      <Configuration Solution="Release|Any CPU" Project="Release|Any CPU|NoBuild" />
+    </Project>
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools\InteractiveSetup\InteractiveSetup.csproj" />
+    <File Path="tools\ask.sh" />
+    <File Path="tools\README.md" />
+    <File Path="tools\run-elasticsearch.sh" />
+    <File Path="tools\run-mongodb-atlas.sh" />
+    <File Path="tools\run-mssql.sh" />
+    <File Path="tools\run-qdrant.sh" />
+    <File Path="tools\run-rabbitmq.sh" />
+    <File Path="tools\run-redis.sh" />
+    <File Path="tools\run-s3ninja.sh" />
+    <File Path="tools\search.sh" />
+    <File Path="tools\upload-file.sh" />
+    <File Path="tools\dockerize-amd64.sh" />
+    <File Path="tools\dockerize-arm64.sh" />
+  </Folder>
+</Solution>
