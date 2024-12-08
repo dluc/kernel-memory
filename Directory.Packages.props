@@ -3,6 +3,7 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
+    <PackageVersion Include="Aspire.Hosting.Qdrant" Version="9.0.0" />
     <PackageVersion Include="AWSSDK.S3" Version="3.7.405.7" />
     <PackageVersion Include="Azure.AI.ContentSafety" Version="1.0.0" />
     <PackageVersion Include="Azure.AI.FormRecognizer" Version="4.1.0" />

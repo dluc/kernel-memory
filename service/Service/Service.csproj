@@ -37,9 +37,9 @@
 
     You can safely remove this reference, removing also this code from Program.cs:
 
-        if (new[] { "setup", "-setup" }.Contains(args.FirstOrDefault(), StringComparer.OrdinalIgnoreCase))
+        if (new[] { "setup", "-setup", "config" }.Contains(args.FirstOrDefault(), StringComparer.OrdinalIgnoreCase))
         {
-            Main.InteractiveSetup(cfgService: true);
+            InteractiveSetup.Main.InteractiveSetup(args.Skip(1).ToArray());
         }
     -->
     <ItemGroup>

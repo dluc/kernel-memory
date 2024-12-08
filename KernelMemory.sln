@@ -360,6 +360,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "km-cli", "km-cli", "{239F5F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire", "extensions\Aspire\Aspire\Aspire.csproj", "{41A5A076-B35D-4191-B98C-65AD5782A108}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qdrant-openai", "tools\aspire\qdrant-openai\qdrant-openai.csproj", "{7916C30A-4E91-4E39-AAAF-2EA73CF21BDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "tools\aspire\test\test.csproj", "{63BEA286-E5ED-469D-B861-37A84E0988A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -665,6 +669,12 @@ Global
 		{41A5A076-B35D-4191-B98C-65AD5782A108}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41A5A076-B35D-4191-B98C-65AD5782A108}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41A5A076-B35D-4191-B98C-65AD5782A108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7916C30A-4E91-4E39-AAAF-2EA73CF21BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7916C30A-4E91-4E39-AAAF-2EA73CF21BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7916C30A-4E91-4E39-AAAF-2EA73CF21BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BEA286-E5ED-469D-B861-37A84E0988A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BEA286-E5ED-469D-B861-37A84E0988A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BEA286-E5ED-469D-B861-37A84E0988A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -775,6 +785,8 @@ Global
 		{CA49F1A1-C3FA-4E99-ACB3-D7FF33D47976} = {6EF76FD8-4C35-4370-8539-5DDF45357A50}
 		{7BA7F1B2-19E2-46EB-B000-513EE2F65769} = {6EF76FD8-4C35-4370-8539-5DDF45357A50}
 		{41A5A076-B35D-4191-B98C-65AD5782A108} = {155DA079-E267-49AF-973A-D1D44681970F}
+		{7916C30A-4E91-4E39-AAAF-2EA73CF21BDC} = {07A91D09-CA4D-425F-83AD-F955336AACD7}
+		{63BEA286-E5ED-469D-B861-37A84E0988A6} = {07A91D09-CA4D-425F-83AD-F955336AACD7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC136C62-115C-41D1-B414-F9473EFF6EA8}
